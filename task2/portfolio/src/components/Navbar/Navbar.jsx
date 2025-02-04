@@ -34,8 +34,8 @@ const Navbar = () => {
       {/* Desktop Menu */}
       <ul className="hidden md:flex space-x-6 md:space-x-8 text-sm md:text-base">
         <li className="hover:text-[#44decc] transition duration-300"><a href="#home">Home</a></li>
-        <li className="hover:text-[#44decc] transition duration-300"><a href="#about">About</a></li>
-        <li className="hover:text-[#44decc] transition duration-300"><a href="#work">Work</a></li>
+        <li className="hover:text-[#44decc] transition duration-300"><a href="#skills">Skills</a></li>
+        <li className="hover:text-[#44decc] transition duration-300"><a href="#projects">Projects</a></li>
         <li className="hover:text-[#44decc] transition duration-300"><a href="#contact">Contact</a></li>
       </ul>
       
@@ -48,8 +48,8 @@ const Navbar = () => {
       <div className={`mt-24 fixed top-0 left-0 h-auto w-[45%] sm:w-[60%] bg-[#202121] text-white transition-transform duration-500 ${nav ? 'translate-x-0' : '-translate-x-full'}`}>
         <ul className="p-6 sm:p-8 text-lg sm:text-xl space-y-4 sm:space-y-6">
           <li className="hover:text-[#44decc] transition duration-300"><a href="#home" onClick={handleNav}>Home</a></li>
-          <li className="hover:text-[#44decc] transition duration-300"><a href="#about" onClick={handleNav}>About</a></li>
-          <li className="hover:text-[#44decc] transition duration-300"><a href="#work" onClick={handleNav}>Work</a></li>
+          <li className="hover:text-[#44decc] transition duration-300"><a href="#skills" onClick={handleNav}>Skills</a></li>
+          <li className="hover:text-[#44decc] transition duration-300"><a href="#projects" onClick={handleNav}>Projects</a></li>
           <li className="hover:text-[#44decc] transition duration-300"><a href="#contact" onClick={handleNav}>Contact</a></li>
         </ul>
       </div>

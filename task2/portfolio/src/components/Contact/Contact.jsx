@@ -26,7 +26,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white p-10 px-[100px]">
+    <div id='contact' className="min-h-screen bg-black text-white p-10 px-[100px]">
       <h2 className="text-4xl font-bold text-center mb-8 text-[#1ca998]">Contact Me</h2>
       
       {isSubmitted ? (

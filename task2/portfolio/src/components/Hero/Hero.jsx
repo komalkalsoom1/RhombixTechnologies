@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
   return (
-    <div className='flex flex-col sm:flex-row items-center px-6 md:px-20 bg-black pt-[150px] sm:pt-[120px] min-h-screen sm:min-h-[100vh] pb-12 sm:pb-0'>
+    <div id='home' className='flex flex-col sm:flex-row items-center px-6 md:px-20 bg-black pt-[150px] sm:pt-[120px] min-h-screen sm:min-h-[100vh] pb-12 sm:pb-0'>
 
       {/* Text Section (60% on medium & large screens, 100% on small screens) */}
       <motion.div

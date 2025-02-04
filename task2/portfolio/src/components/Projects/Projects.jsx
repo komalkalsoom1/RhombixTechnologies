@@ -22,7 +22,7 @@ const Projects = () => {
     const filteredProjects = filteredCategory === 'All' ? projects : projects.filter(project => project.category === filteredCategory);
 
     return (
-        <div className="min-h-screen bg-black text-white">
+        <div id='projects' className="min-h-screen bg-black text-white">
             {/* Filter Button Section */}
             <div className="filter-container p-10 text-center">
                 <button

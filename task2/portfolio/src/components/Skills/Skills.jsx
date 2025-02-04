@@ -15,7 +15,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div id='skills' className="min-h-screen bg-black text-white">
       {/* Skills Section */}
       <div className="skills-container flex flex-wrap justify-center items-center p-10">
         {skillIcons.map((skill, index) => (
